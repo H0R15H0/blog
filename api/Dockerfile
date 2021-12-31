@@ -1,6 +1,6 @@
 FROM golang:1.17.5-alpine
 
-WORKDIR /go/src/blog
+WORKDIR /go/src/api
 
 RUN apk update && \
     apk --no-cache add git

@@ -8,10 +8,24 @@ services:
     # depends_on:
       # - db
     volumes:
-      - './api:/go/src/blog'
+      - './api:/go/src/api'
     ports:
       - '3010:8080'
     tty: true
     stdin_open: true
-    # env_file:
-    #   - .env
+    env_file:
+      - .env
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      # MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASS}
+      MYSQL_ROOT_PASSWORD: ${DB_PASS}
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db/db_data:/var/lib/mysql
+      - ./db/init_db:/docker-entrypoint-initdb.d
+      - ./db/conf.d:/etc/mysql/conf.d
