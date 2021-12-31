@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  api:
+    build:
+      context: ./api
+    # command: ["./wait-for-mysql.sh", "${DB_HOST}", "air"]
+    # depends_on:
+      # - db
+    volumes:
+      - './api:/go/src/blog'
+    ports:
+      - '3010:8080'
+    tty: true
+    stdin_open: true
+    # env_file:
+    #   - .env
