@@ -3,7 +3,7 @@ FROM golang:1.17.5-alpine
 WORKDIR /go/src/api
 
 RUN apk update && \
-    apk --no-cache add git
+    apk --no-cache add git mysql-client
 
 COPY go.mod ./
 

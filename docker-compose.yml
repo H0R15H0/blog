@@ -4,7 +4,7 @@ services:
   api:
     build:
       context: ./api
-    # command: ["./wait-for-mysql.sh", "${DB_HOST}", "air"]
+    command: ["./wait.sh", "air"]
     # depends_on:
       # - db
     volumes:
