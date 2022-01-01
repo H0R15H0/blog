@@ -1,4 +1,4 @@
-package infra
+package persistance
 
 import (
 	"api/domain/model"
