@@ -2,6 +2,7 @@ package db
 
 import (
 	"api/config"
+	"api/domain/model"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -14,7 +15,7 @@ func NewDB(config *config.Config) *gorm.DB {
 		panic(err)
 	}
 
-	// db.AutoMigrate(model.Task{})
+	db.AutoMigrate(&model.Post{}, &model.Tag{})
 
 	return db
 }
