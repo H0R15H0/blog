@@ -23,7 +23,7 @@ func main() {
 
 	r.GET("/ping", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": db,
+			"message": "success",
 		})
 	})
 
