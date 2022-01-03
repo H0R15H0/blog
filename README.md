@@ -1,2 +1,16 @@
-# blog
-This is my blog.
+# WIP
+
+# H0R15H0's Blog
+私ほりしょーが作成した（している）ブログです。
+
+# backend
+
+## 技術
+- golang
+- [gin](https://github.com/gin-gonic/gin)
+- [gorm](https://github.com/go-gorm/gorm)
+- MySQL
+- AWS ( ECS on EC2, ERC, RDS(MySQL), ELB(Application Load Balancer) )
+
+## 構成
+![Blog backend infrustructure](/doc/images/blog_api_infrustructure.png?raw=true "Blog Backend Infrustructure")
