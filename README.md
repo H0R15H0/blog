@@ -18,5 +18,5 @@
 
 ## 構成
 <p align="center">
-  <img src="https://github.com/H0R15H0/blog/blob/master/docs/images/blog_api_infrastructure.png?raw=true" alt="Blog Backend Infrustructure"/>
+  <img src="https://github.com/H0R15H0/blog/blob/master/docs/images/blog_backend_infrastructure.png?raw=true" alt="Blog Backend Infrastructure"/>
 </p>
