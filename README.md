@@ -13,4 +13,6 @@
 - AWS ( ECS on EC2, ERC, RDS(MySQL), ELB(Application Load Balancer) )
 
 ## 構成
-![Blog backend infrustructure](/doc/images/blog_api_infrustructure.png?raw=true "Blog Backend Infrustructure")
+<p align="center">
+  <img src="https://github.com/H0R15H0/blog/blob/master/docs/images/blog_api_infrastructure.png?raw=true" alt="Blog Backend Infrustructure"/>
+</p>
