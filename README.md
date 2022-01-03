@@ -1,7 +1,11 @@
-# WIP
-
-# H0R15H0's Blog
+# 🏃‍♂️WIP🏃‍♂️H0R15H0's Blog
 私ほりしょーが作成した（している）ブログです。
+
+## TODO
+- [x] backendの実装(go, gin, gorm)
+- [x] backendのデプロイ(AWS, ecs)
+- [ ] frontendの実装（Next, typescript）
+- [ ] frontendのデプロイ(Vercel)
 
 # backend
 
