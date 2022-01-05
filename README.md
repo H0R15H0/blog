@@ -4,7 +4,7 @@
 ## TODO
 - [x] backendの実装(go, gin, gorm)
 - [x] backendのデプロイ(AWS, ecs)
-- [ ] ドメインの取得
+- [x] ドメインの取得
 - [ ] SSL化
 - [ ] frontendの実装（Next, typescript）
 - [ ] frontendのデプロイ(Vercel)
