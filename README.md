@@ -3,6 +3,7 @@
 
 ## TODO
 - [x] backendの実装(go, gin, gorm)
+- [ ] backendのテスト実装
 - [x] backendのデプロイ(AWS, ecs)
 - [x] ドメインの取得
 - [ ] SSL化
